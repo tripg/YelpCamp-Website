@@ -126,7 +126,10 @@ while True:
                     print('The game is a draw!')
                     break
                 else:
-                    turn = 'Player 1'
+                    if turn == 'Player1':
+                        turn = 'Player2'
+                    else:
+                        turn = 'Player2'
 
     if not replay():
         break
