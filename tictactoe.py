@@ -129,7 +129,7 @@ while True:
                     if turn == 'Player1':
                         turn = 'Player2'
                     else:
-                        turn = 'Player2'
+                        turn = 'Player1'
 
     if not replay():
         break
